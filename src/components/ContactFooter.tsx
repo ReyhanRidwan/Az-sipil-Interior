@@ -25,7 +25,7 @@ export default function ContactFooter() {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     'name': COMPANY_INFO.name,
-    'image': 'https://ais-pre-xuhhe6zq3ijgxgdmk6auua-447463601872.asia-southeast1.run.app/src/assets/images/az_hero_banner_1782216173445.jpg',
+    'image': 'https://ais-pre-xuhhe6zq3ijgxgdmk6auua-447463601872.asia-southeast1.run.app/images/az_hero_banner_1782216173445.jpg',
     'telephone': COMPANY_INFO.phone,
     'email': COMPANY_INFO.email,
     'address': {

@@ -13,7 +13,7 @@ export default function Hero({ onScrollToRAB, onScrollToSurvey }: HeroProps) {
       {/* Background Image with Rich Premium Overlays */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/az_hero_banner_1782216173445.jpg"
+          src="/images/az_hero_banner_1782216173445.jpg"
           alt="Premium Architecture Facade by AZ Sipil Interior"
           className="w-full h-full object-cover opacity-65 scale-105 transition-transform duration-10000 filter brightness-90 animate-subtle-zoom"
           referrerPolicy="no-referrer"

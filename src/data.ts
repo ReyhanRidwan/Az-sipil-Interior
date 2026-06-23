@@ -58,7 +58,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Konstruksi Bangunan',
     description: 'Pembangunan rumah mewah, ruko, kantor, dan fasilitas komersial dari nol dengan standar struktural SNI tertinggi.',
     longDescription: 'Dari pondasi dalam hingga atap beton, kami menangani proyek konstruksi sipil secara holistik. Setiap penulangan beton dan kualitas material diuji melalui pengawasan ahli teknik sipil kami.',
-    image: '/src/assets/images/az_service_konstruksi_1782216194996.jpg',
+    image: '/images/az_service_konstruksi_1782216194996.jpg',
     features: ['Struktur Beton Bertulang SNI', 'Sertifikat Kelayakan Struktur', 'Pekerjaan Pondasi Dalam/Slob', 'Dinding & Rangka Atap Baja Ringan']
   },
   {
@@ -66,7 +66,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Renovasi & Remodeling',
     description: 'Mengubah tampilan dan menaikkan nilai properti lama Anda dengan garansi perbaikan struktur modern.',
     longDescription: 'Solusi peremajaan bangunan komprehensif mulai dari perluasan denah, peninggian lantai, pengecoran dak baru, hingga penggantian tampak muka (facade remodeling).',
-    image: '/src/assets/images/az_service_renovasi_1782216209139.jpg',
+    image: '/images/az_service_renovasi_1782216209139.jpg',
     features: ['Facade Modern Makeover', 'Pengecoran Lantai Dak Cor', 'Anti-Leakage & Waterproofing', 'Instalasi Elektrikal Terproteksi']
   },
   {
@@ -74,7 +74,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Desain Interior & Build',
     description: 'Layanan terintegrasi mulai dari perancangan 3D render realistis hingga pembuatan custom furniture workshop mandiri.',
     longDescription: 'Kami merancang ergonomi optimal dengan estetika tinggi. Workshop furnishing mandiri kami menjamin kualitas finishing HPL, Duco, dan detail sambungan kayu yang presisi.',
-    image: '/src/assets/images/az_service_interior_1782216225618.jpg',
+    image: '/images/az_service_interior_1782216225618.jpg',
     features: ['Custom Kitchen Set & Backdrop', 'Visualisasi 3D Komprehensif', 'Furnitur Presisi Workshop Sendiri', 'Lighting Design & Mood Optimization']
   },
   {
@@ -82,7 +82,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Pengawasan Proyek',
     description: 'Supervisi konstruksi independen untuk memantau kualitas material, ketepatan desain, dan deviasi biaya di lapangan.',
     longDescription: 'Tim pengawas kami mendeteksi dini kesalahan konstruksi di lapangan sehingga menjauhkan proyek Anda dari cacat struktural dan pemborosan belanja.',
-    image: '/src/assets/images/az_service_supervision_1782216313463.jpg',
+    image: '/images/az_service_supervision_1782216313463.jpg',
     features: ['Laporan Project Progress Regular', 'Audit Kualitas Bahan di Lapangan', 'Pengawasan K3 Konstruksi', 'Time Schedule S-Curve Verification']
   },
   {
@@ -90,7 +90,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Perencanaan & Desain',
     description: 'Pembuatan dokumen perencanaan lengkap (DED), gambar arsitektur, gambar kerja struktur, dan blue print kelayakan.',
     longDescription: 'Menyediakan blueprint konstruksi, perhitungan kapasitas beban tanah, pemetaan tata cahaya, hingga persiapan dokumen untuk perizinan IMB / PBG.',
-    image: '/src/assets/images/az_service_planning_1782216240263.jpg',
+    image: '/images/az_service_planning_1782216240263.jpg',
     features: ['Gambar Kerja DED Lengkap', 'Drafting IMB / PBG Kelayakan', 'Analisis Struktur & Beban Gempa', 'Site Plan & Layouting Zonasi']
   },
   {
@@ -98,7 +98,7 @@ export const SERVICES: ServiceItem[] = [
     title: 'Konsultasi Teknik',
     description: 'Penyelesaian kendala teknis bangunan, audit struktur eksisting, rencana anggaran, dan optimasi efisiensi pengadaan bahan.',
     longDescription: 'Layanan konsultasi tatap muka langsung di kantor atau lokasi proyek bersama analis sipil kami untuk merumuskan solusi optimal sesuai budget (value engineering).',
-    image: '/src/assets/images/az_service_consulting_1782216355215.jpg',
+    image: '/images/az_service_consulting_1782216355215.jpg',
     features: ['Audit Crack & Defleksi Bangunan', 'Optimasi Alokasi Anggaran (VE)', 'Legalitas & Syarat Konstruksi', 'Mediasi Teknis & Solusi Lapangan']
   }
 ];
@@ -110,7 +110,7 @@ export const PORTFOLIOS: PortfolioItem[] = [
     category: 'Konstruksi Bangunan',
     location: 'Sunter, Jakarta Utara',
     description: 'Pembangunan rumah tinggal bergaya modern-minimalis tropis dengan material eksklusif dan fasad beton ekspos premium.',
-    image: '/src/assets/images/az_hero_banner_1782216173445.jpg', // Reuse hero banner since it's an ultra high-quality luxury building
+    image: '/images/az_hero_banner_1782216173445.jpg', // Reuse hero banner since it's an ultra high-quality luxury building
     specs: {
       luas: '380 m²',
       durasi: '8 Bulan',
@@ -123,7 +123,7 @@ export const PORTFOLIOS: PortfolioItem[] = [
     category: 'Desain Interior',
     location: 'Pondok Indah, Jakarta Selatan',
     description: 'Transformasi ruang keluarga dengan custom furniture berbahan kayu jati, panel marmer Carrara, dan ambient lighting yang hangat.',
-    image: '/src/assets/images/az_service_interior_1782216225618.jpg', // Beautiful living room asset
+    image: '/images/az_service_interior_1782216225618.jpg', // Beautiful living room asset
     specs: {
       luas: '85 m²',
       durasi: '2 Bulan',
@@ -136,7 +136,7 @@ export const PORTFOLIOS: PortfolioItem[] = [
     category: 'Desain Interior',
     location: 'SCBD, Jakarta Selatan',
     description: 'Interior build bertema mewah dan fungsional untuk kantor pusat eksekutif, mengoptimalkan tata kerja hibrida modern.',
-    image: '/src/assets/images/az_service_consulting_1782216355215.jpg', // High end office setup
+    image: '/images/az_service_consulting_1782216355215.jpg', // High end office setup
     specs: {
       luas: '450 m²',
       durasi: '3.5 Bulan',
@@ -149,7 +149,7 @@ export const PORTFOLIOS: PortfolioItem[] = [
     category: 'Renovasi & Remodeling',
     location: 'Menteng, Jakarta Pusat',
     description: 'Rekonstruksi fasad rumah kolonial menjadi hunian bertipe kontemporer industrial serta peninggian level lantai bebas banjir.',
-    image: '/src/assets/images/az_service_renovasi_1782216209139.jpg', // Beautiful remodeling rendering
+    image: '/images/az_service_renovasi_1782216209139.jpg', // Beautiful remodeling rendering
     specs: {
       luas: '220 m²',
       durasi: '4 Bulan',
