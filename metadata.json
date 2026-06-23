@@ -1,0 +1,6 @@
+{
+  "name": "AZ Sipil Interior",
+  "description": "Website company profile premium dan modern untuk AZ Sipil Interior dengan fitur estimasi Kalkulator RAB dan filter survey proyek terintegrasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

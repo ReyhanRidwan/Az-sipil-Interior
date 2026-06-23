@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Custom palette: Elegant Charcoal, Rich Gold & Light architectural surfaces */
+  --color-accent-gold: #c5a880;
+  --color-accent-amber: #e28c31;
+  --color-brand-dark: #121212;
+  --color-brand-charcoal: #1c1c1c;
+  --color-brand-gray: #2d2d2d;
+  --color-light-gray: #f8f9fa;
+  --color-medium-gray: #e9ecef;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-brand-dark font-sans selection:bg-accent-gold selection:text-white antialiased;
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom fade effects and utility classes */
+.overlay-gradient {
+  background: linear-gradient(to bottom, rgba(18, 18, 18, 0.4) 0%, rgba(18, 18, 18, 0.85) 100%);
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #dfc097 0%, #c5a880 50%, #a78a63 100%);
+}
+
+.gold-glow {
+  box-shadow: 0 4px 20px -2px rgba(197, 168, 128, 0.3);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #dfc097 0%, #b2936a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
